@@ -109,19 +109,10 @@ docker-compose up --build
         init.sql (ilk veritabanı şeması)
     docker-compose.yaml: Dockerize edilmiş geliştirme için servisleri, ağları ve birimleri tanımlar.
 
-🛠️ Geliştirme İş Akışı
 
     Kodu Değiştirin: Gerektiğinde backend, frontend veya veritabanında değişiklik yapın.
     Docker Compose ile Yeniden Oluşturun: Değişiklikleri uygulamak ve konteynerleri yeniden oluşturmak için docker-compose up --build komutunu çalıştırın.
     Test Edin: Frontend, backend API uç noktalarını ve veritabanı etkileşimlerini test etmek için tercih ettiğiniz araçları kullanın.
 
-💡 Temel Özellikler
 
-    Konteynerleştirilmiş Geliştirme: Makineler arasında kolay kurulum ve tutarlı davranış için izole ortamlar.
-    Modern Teknoloji Yığını: Dinamik ön uç için React, arka uç esnekliği için Flask.
-    Kalıcı Veritabanı: Güvenilir veri depolama için MySQL.
-    Ölçeklenebilir Mimari: Docker Compose kullanarak bileşenleri kolayca bağımsız olarak ölçeklendirin.
 
-🤝 Katkıda Bulunma
-
-Katkılar bekliyoruz! Lütfen sorunları bildirmekten veya pull request göndermekten çekinmeyin.
